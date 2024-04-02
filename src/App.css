@@ -13,7 +13,13 @@
   }
 }
 
+.powerbi-report-style {
+  height: 600px;
+  width: 1000px;
+}
+
 .App-header {
+  text-align: center;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -32,6 +38,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
